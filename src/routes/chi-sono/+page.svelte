@@ -1,4 +1,5 @@
 <script>
+  import { base } from '$app/paths';
   import AnimatedBackground from '$lib/components/AnimatedBackground.svelte';
 
   const skills = [
@@ -46,7 +47,7 @@
         <div class="avatar-wrap">
           <div class="avatar-frame">
             <div class="avatar-placeholder">
-              <img src="/edo.jpeg" alt="Edoardo Attanasio" class="avatar-img">
+              <img src="{base}/edo.jpeg" alt="Edoardo Attanasio" class="avatar-img">
             </div>
           </div>
           <div class="avatar-ring r1"></div>

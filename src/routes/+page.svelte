@@ -139,7 +139,7 @@
         <div class="avatar-wrapper">
           <div class="avatar-frame">
             <div class="avatar-placeholder">
-              <img src="/edo.jpeg" alt="Edoardo Attanasio" class="avatar-img">
+              <img src="{base}/edo.jpeg" alt="Edoardo Attanasio" class="avatar-img">
             </div>
           </div>
           <div class="avatar-ring ring-1"></div>

@@ -1,4 +1,5 @@
 <script>
+  import { base } from '$app/paths';
   import AnimatedBackground from '$lib/components/AnimatedBackground.svelte';
 
   // ─── DATI PROGETTI ───────────────────────────────────────────────────────────
@@ -28,7 +29,7 @@ const progetti = [
           'Gestione di stringhe e input utente',
           'Logica di calcolo del codice fiscale italiano'
         ],
-        previewSrc: 'img_antep/ante_cod_c.jpg',
+        previewSrc: `${base}/img_antep/ante_cod_c.jpg`,
         embedUrl: null,
         projectUrl: 'https://github.com/Attanasio-Edoardo/codice_fiscale_c',
       },
@@ -43,7 +44,7 @@ const progetti = [
           'Struttura e organizzazione criminale',
           'Influenza economica e sociale delle mafie'
         ],
-        previewSrc: '/img_antep/ndra.jpg',
+        previewSrc: `${base}/img_antep/ndra.jpg`,
         embedUrl: 'https://www.canva.com/design/DAGG-7buDY4/1BvN8SU1LeJpUaMNs5HdA/view?embed',
         projectUrl: null,
       },
@@ -58,7 +59,7 @@ const progetti = [
           'Figure simbolo della lotta alla mafia',
           'Impatto sociale e politico della criminalità organizzata'
         ],
-        previewSrc: '/img_antep/mattanza.jpeg',
+        previewSrc: `${base}/img_antep/mattanza.jpeg`,
         embedUrl: null,
         projectUrl: null,
       },
@@ -79,7 +80,7 @@ const progetti = [
           'Gestione di domande e punteggi',
           'Simulazione realistica dei quiz patente'
         ],
-        previewSrc: 'img_antep/quiz_pat.jpg',
+        previewSrc: `${base}/img_antep/quiz_pat.jpg`,
         embedUrl: null,
         projectUrl: 'https://github.com/Attanasio-Edoardo/QuizDrive',
       },
@@ -94,7 +95,7 @@ const progetti = [
           'Principi del Presbiterianesimo',
           'Diffusione e influenza storica'
         ],
-        previewSrc: '/img_antep/presbi.png',
+        previewSrc: `${base}/img_antep/presbi.png`,
         embedUrl: 'https://www.canva.com/design/DAGXZpW1i0E/TCdK2NoGalyfswRDvOycEQ/view?embed',
         projectUrl: null,
       },
@@ -115,7 +116,7 @@ const progetti = [
           'La negazione della dignità umana',
           'Memoria storica e riflessione etica'
         ],
-        previewSrc: '/img_antep/lager.jpeg',
+        previewSrc: `${base}/img_antep/lager.jpeg`,
         embedUrl: 'https://www.canva.com/design/DAHJ9aEgIgw/2uBiUGDhyoxr03Mwe5km-A/view?embed',
         projectUrl: null,
       },
@@ -130,7 +131,7 @@ const progetti = [
           'Trasformazioni religiose e politiche',
           'Impatto culturale degli eventi del 1522'
         ],
-        previewSrc: '/img_antep/1522.png',
+        previewSrc: `${base}/img_antep/1522.png`,
         embedUrl: '',
         projectUrl: 'https://github.com/Attanasio-Edoardo/progetto_1522',
       },
@@ -145,7 +146,7 @@ const progetti = [
           'Il programma Aktion T4',
           'Il progetto Lebensborn e la propaganda razziale'
         ],
-        previewSrc: '/img_antep/lebensborn.jpg',
+        previewSrc: `${base}/img_antep/lebensborn.jpg`,
         embedUrl: 'https://www.canva.com/design/DAHJ9Syb6Pw/xS9OpptKBKzgCnwA4tTByA/view?embed',
         projectUrl: null,
       },
@@ -160,7 +161,7 @@ const progetti = [
           'Diritti civili e partecipazione politica',
           'Valori costituzionali e cambiamento sociale'
         ],
-        previewSrc: '/img_antep/Costi.jpg',
+        previewSrc: `${base}/img_antep/Costi.jpg`,
         embedUrl: 'https://www.canva.com/design/DAHJ_nsTC_I/WBnV7oHXu_0QbsKzRbBAVQ/view?embed',
         projectUrl: null,
       },
@@ -175,7 +176,7 @@ const progetti = [
           'Diritti civili e partecipazione politica',
           'Valori costituzionali e cambiamento sociale'
         ],
-        previewSrc: '/img_antep/prig_dom.webp',
+        previewSrc: `${base}/img_antep/prig_dom.webp`,
         embedUrl: null,
         projectUrl: '/pdfs/prigione_domestica.pdf',
       },
@@ -190,7 +191,7 @@ const progetti = [
           'Diritti civili e partecipazione politica',
           'Valori costituzionali e cambiamento sociale'
         ],
-        previewSrc: '/img_antep/saviano.webp',
+        previewSrc: `${base}/img_antep/saviano.webp`,
         embedUrl: null,
         projectUrl: null,
       },
@@ -205,7 +206,7 @@ const progetti = [
           'Diritti civili e partecipazione politica',
           'Valori costituzionali e cambiamento sociale'
         ],
-        previewSrc: '/img_antep/primo.jpeg',
+        previewSrc: `${base}/img_antep/primo.jpeg`,
         embedUrl: null,
         projectUrl: null,
       },

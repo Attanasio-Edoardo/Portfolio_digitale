@@ -7,9 +7,9 @@
   let scrolled = false;
 
   const navItems = [
-    { href: '/', label: 'Home', code: '00' },
-    { href: '/chi-sono', label: 'Chi Sono', code: '01' },
-    { href: '/educazione-civica', label: 'Ed. Civica', code: '02' },
+    { href: `${base}/`, label: 'Home', code: '00' },
+    { href: `${base}/chi-sono`, label: 'Chi Sono', code: '01' },
+    { href: `${base}/educazione-civica`, label: 'Ed. Civica', code: '02' },
   ];
 
   onMount(() => {
