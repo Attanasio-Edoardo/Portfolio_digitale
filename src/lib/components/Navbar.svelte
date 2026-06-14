@@ -1,4 +1,5 @@
 <script>
+  import { base } from '$app/paths';
   import { page } from '$app/stores';
   import { onMount } from 'svelte';
 
@@ -26,7 +27,7 @@
 <nav class="navbar" class:scrolled>
   <div class="nav-inner">
     <!-- Logo -->
-    <a href="/" class="nav-logo" on:click={closeMenu}>
+    <a href="{base}/" class="nav-logo" on:click={closeMenu}>
       <span class="logo-bracket">&lt;</span>
       <span class="logo-text">PM</span>
       <span class="logo-bracket">/&gt;</span>

@@ -1,4 +1,5 @@
 <script>
+  import { base } from '$app/paths';
   import { onMount } from 'svelte';
   import AnimatedBackground from '$lib/components/AnimatedBackground.svelte';
 
@@ -59,11 +60,11 @@
     </p>
 
     <div class="hero-cta reveal">
-      <a href="/chi-sono" class="btn-solid">
+      <a href="{base}/chi-sono" class="btn-solid">
         Scopri il Percorso
         <span>→</span>
       </a>
-      <a href="/educazione-civica" class="btn-glow">
+      <a href="{base}/educazione-civica" class="btn-glow">
         Ed. Civica
       </a>
     </div>
@@ -131,7 +132,7 @@
         <p class="teaser-text">
           In questo spazio raccolgo il mio percorso scolastico, i progetti realizzati e le competenze sviluppate durante gli anni all’Istituto Internazionale Edoardo Agnelli, indirizzo Informatica e Telecomunicazioni. Un viaggio tra tecnologia, programmazione e crescita personale.
         </p>
-        <a href="/chi-sono" class="btn-glow" style="margin-top: 32px">Scopri di più →</a>
+        <a href="{base}/chi-sono" class="btn-glow" style="margin-top: 32px">Scopri di più →</a>
       </div>
 
       <div class="teaser-right reveal-right">

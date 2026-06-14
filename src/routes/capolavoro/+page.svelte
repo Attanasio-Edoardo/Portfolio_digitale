@@ -1,4 +1,5 @@
 <script>
+  import { base } from '$app/paths';
   import { onMount } from 'svelte';
   import AnimatedBackground from '$lib/components/AnimatedBackground.svelte';
 
@@ -220,7 +221,7 @@
     <p>Visita il repository GitHub o contattami per una demo dal vivo del progetto.</p>
     <div class="cta-actions">
       <a href="https://github.com" target="_blank" class="btn-solid">GitHub Repository →</a>
-      <a href="/contatti" class="btn-glow">Contattami</a>
+      <a href="{base}/contatti" class="btn-glow">Contattami</a>
     </div>
   </div>
 </section>
