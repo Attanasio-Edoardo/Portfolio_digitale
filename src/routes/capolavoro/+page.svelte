@@ -46,7 +46,7 @@
   <!-- Floating code decorations -->
   <div class="code-deco">
     <span class="mono code-line cl1">const capolavoro = new Project();</span>
-    <span class="mono code-line cl2">await deploy({ env: 'production' });</span>
+    <span class="mono code-line cl2">await deploy({'{'} env: 'production' {'}'});</span>
     <span class="mono code-line cl3">// Maturità 2025 ✓</span>
   </div>
 
