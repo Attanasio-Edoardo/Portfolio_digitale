@@ -210,6 +210,51 @@ const progetti = [
         embedUrl: null,
         projectUrl: null,
       },
+      {
+        id: '5-08',
+        titolo: "Social and ethical problems of Internet",
+        materia: 'Inglese ed educazione civica',
+        materiaColor: '#58d68d',
+        desc: 'A list of problems that the use of Internet lead to',
+        punti: [
+          'Digital divide',
+          'Erosion of cultural industries',
+          'Censorship'
+        ],
+        previewSrc: `${base}/img_antep/social.jpeg`,
+        embedUrl: null,
+        projectUrl: null,
+      },
+      {
+        id: '5-08',
+        titolo: "Social and ethical problems of Internet",
+        materia: 'Inglese ed educazione civica',
+        materiaColor: '#58d68d',
+        desc: 'A list of problems that the use of Internet lead to',
+        punti: [
+          'Digital divide',
+          'Erosion of cultural industries',
+          'Censorship'
+        ],
+        previewSrc: `${base}/img_antep/social.jpeg`,
+        embedUrl: null,
+        projectUrl: null,
+      },
+      {
+        id: '5-09',
+        titolo: "Online dangers and how to use the Internet safely",
+        materia: 'Inglese ed educazione civica',
+        materiaColor: '#58d68d',
+        desc: 'A list of problems that the use of Internet lead to',
+        punti: [
+          'Malware',
+          'Worm',
+          'Firewall'
+        ],
+        previewSrc: `${base}/img_antep/intsec.jpeg`,
+        embedUrl: null,
+        projectUrl: null,
+      },
     ],
   },
 ];
