@@ -221,22 +221,22 @@ const progetti = [
           'Erosion of cultural industries',
           'Censorship'
         ],
-        previewSrc: `${base}/img_antep/social.jpeg`,
+        previewSrc: `${base}/img_antep/social.png`,
         embedUrl: null,
         projectUrl: null,
       },
       {
-        id: '5-08',
-        titolo: "Social and ethical problems of Internet",
+        id: '5-10',
+        titolo: "Advantages and disadvantages of AI",
         materia: 'Inglese ed educazione civica',
         materiaColor: '#58d68d',
-        desc: 'A list of problems that the use of Internet lead to',
+        desc: 'Is AI advantageous for us or not?',
         punti: [
-          'Digital divide',
-          'Erosion of cultural industries',
-          'Censorship'
+          'Occupation',
+          'Reliability',
+          'Losing crtical thinking'
         ],
-        previewSrc: `${base}/img_antep/social.jpeg`,
+        previewSrc: `${base}/img_antep/arti.jpg`,
         embedUrl: null,
         projectUrl: null,
       },
@@ -251,7 +251,7 @@ const progetti = [
           'Worm',
           'Firewall'
         ],
-        previewSrc: `${base}/img_antep/intsec.jpeg`,
+        previewSrc: `${base}/img_antep/intsec.jpg`,
         embedUrl: null,
         projectUrl: null,
       },
